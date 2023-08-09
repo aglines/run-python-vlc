@@ -1,11 +1,11 @@
 # run-python-vlc
-Python code to run multiple random media sources at the same time, running a VLC player (python-vlc) embedded in a GUI (PySimpleGUI)
+Python code to run multiple random media sources at the same time in separate windows, running a VLC player (python-vlc) embedded in a GUI (PySimpleGUI)
 
-# todo
-- multiple concurrent VLC instances
-- random playlist
+## done:
+- position windows on mult monitors
+- plays multiple concurrent media files
+- LibVLC spawns its own GUI, got better GUI to embed VLC in: PySimpleGUI
 
-## problems and solutions done:
-- LibVLC spawns its own GUI, so testing means multiple unused windows which can't be closed until the kernel restarts 
-- Needed a better GUI to embed VLC in, even if I only add basic user features: enter PySimpleGUI
- 
+# todo:
+- play a playlist
+- save & load program settings 
