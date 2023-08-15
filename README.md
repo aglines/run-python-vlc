@@ -3,7 +3,7 @@ Python code to run multiple random media sources at the same time in separate wi
 
 # Monitor measurements are specific to each setup. To find these:
 - Run the screenfinder code found at https://www.pysimplegui.org/en/latest/cookbook/#recipe-positioning-windows-on-a-multi-monitor-setup-tkinter-version-of-pysimplegui-only
-- Once found, update the list of tuples, locations[], in the first section
+- Once found, update the list of tuples, locations[], in the first section. (Code here is optimized for the primary monitor on the right.)
 
 
 ## done:
@@ -12,8 +12,11 @@ Python code to run multiple random media sources at the same time in separate wi
 - plays multiple concurrent media files in different windows
 - LibVLC spawns its own GUI, got better GUI to embed VLC in: PySimpleGUI
 
-# todo:
-- error handling, exit button not always functional
-- testing scenarios
+# todo refactor:
+- validate test data
+- error handling
+- avoid dynamic var names
+
+# todo features
 - randomize playlists
 - save & load program settings 
